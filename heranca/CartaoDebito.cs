@@ -7,6 +7,9 @@ public class CartaoDebito
 
     public string Numero { get; set; }
     public BandeiraCartao Bandeira { get; set; } //visa, Visa, VISA
+    public DateTime Vencimento { get; set; }
+    public string Portador { get; set; }
+    public string Cvv { get; set; } 
 }
 
 
